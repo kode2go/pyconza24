@@ -33,21 +33,50 @@ if page == "Talks":
 
 # Page 2: Just Streamlit
 elif page == "Just Streamlit":
-    # Title and content for the Just Streamlit page
+    # Title for the Just Streamlit page
     st.title("Just Streamlit")
-    st.write("""
-    ### Learn More About Streamlit
-    Streamlit is an open-source app framework used for building data-driven apps quickly and easily. 
-    You can use it to create machine learning apps, dashboards, and more in pure Python.
-    
-    - It's incredibly easy to set up.
-    - It allows for interactive widgets like sliders, buttons, and inputs.
-    - You can deploy Streamlit apps easily in the cloud.
-    """)
-    
-    st.write("Check out the [Streamlit Documentation](https://docs.streamlit.io/) to get started.")
-    
-    # Example Streamlit interactive widget
-    st.write("Here is an interactive example:")
-    user_input = st.text_input("Type something here:")
-    st.write(f"You typed: {user_input}")
+
+    # Create tabs for different sections
+    tab_names = ["Intro", "Proof of Concept", "Deployment", "Limitations"]
+    tabs = st.tabs(tab_names)
+
+    # Intro Tab
+    with tabs[0]:
+        st.write("## Intro")
+        st.write("""
+        Streamlit is an open-source Python framework for building interactive web apps quickly. 
+        No front-end expertise needed — just write Python scripts. 
+        Ideal for rapid prototyping and turning ideas or data scripts into shareable apps in minutes. 
+        Live app updating on save. 
+        Built-in widgets for inputs and visualization.
+        """)
+
+    # Proof of Concept Tab
+    with tabs[1]:
+        st.write("## Proof of Concept")
+        st.write("""
+        Fast Development: Build a fully interactive app with only a few lines of code.
+        No Web Dev Required: No HTML, CSS, or JavaScript — focus on Python. 
+        Perfect for Data Science or Static Apps: Easily display plots, tables, models, and more. 
+        Deploy Easily: One-click deployment with Streamlit Cloud or Docker.
+        """)
+
+    # Deployment Tab
+    with tabs[2]:
+        st.write("## Deployment")
+        st.write("""
+        Deploy Direct from GitHub: Push your app to GitHub, and it automatically deploys on 
+        Streamlit Cloud. Managed Scaling: No server configuration — Streamlit Cloud handles traffic and scaling. 
+        Real-Time Collaboration: Share apps instantly with colleagues or the public via a shareable URL. 
+        Can install locally as well: “pip install streamlit” etc…
+        """)
+
+    # Limitations Tab
+    with tabs[3]:
+        st.write("## Limitations")
+        st.write("""
+        Streamlit is great for creating data-driven dashboards and prototypes quickly without needing to handle backend or complex web architecture. 
+        It is not designed for developing large scale, feature-rich web applications where user management, scalability, and backend logic are crucial. 
+        It is also not designed for complex routing, user authentication, sessions, databases, and scalable deployment. 
+        There are experimental features to get some of these working.
+        """)
