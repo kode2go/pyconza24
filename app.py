@@ -1,10 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-
-
 # Add a title to the sidebar
-st.sidebar.title("My Sidebar Menu")
+st.sidebar.title("PyConZA 2024")
 
 # Sidebar menu for navigation
 page = st.sidebar.selectbox(
