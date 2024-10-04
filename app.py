@@ -43,12 +43,12 @@ elif page == "Just Streamlit":
     # Intro Tab
     with tabs[0]:
         st.write("## Intro")
-        st.write("""
-        Streamlit is an open-source Python framework for building interactive web apps quickly. 
-        No front-end expertise needed — just write Python scripts. 
-        Ideal for rapid prototyping and turning ideas or data scripts into shareable apps in minutes. 
-        Live app updating on save. 
-        Built-in widgets for inputs and visualization.
+        st.markdown("""
+        - Streamlit is an open-source Python framework for building interactive web apps quickly. 
+        - No front-end expertise needed — just write Python scripts. 
+        - Ideal for rapid prototyping and turning ideas or data scripts into shareable apps in minutes. 
+        - Live app updating on save. 
+        - Built-in widgets for inputs and visualization.
         """)
 
     # Proof of Concept Tab
