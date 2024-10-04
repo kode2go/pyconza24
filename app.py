@@ -50,6 +50,9 @@ elif page == "Just Streamlit":
         - Live app updating on save. 
         - Built-in widgets for inputs and visualization.
         """)
+    
+         # Add the image
+        st.image("st01.png", caption="Streamlit Workflow", use_column_width=True)
 
     # Proof of Concept Tab
     with tabs[1]:
@@ -60,6 +63,9 @@ elif page == "Just Streamlit":
         - Perfect for Data Science or Static Apps: Easily display plots, tables, models, and more. 
         - Deploy Easily: One-click deployment with Streamlit Cloud or Docker.
         """)
+    
+         # Add the image
+        st.image("st02.png", caption="Simple App", use_column_width=True)
 
     # Deployment Tab
     with tabs[2]:
