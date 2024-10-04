@@ -44,7 +44,7 @@ elif page == "Just Streamlit":
     tabs = st.tabs(tab_names)
 
     with tabs[0]:
-        st.write("# Just Streamlit")
+        # st.write("# Just Streamlit")
     with tabs[1]:
         st.write("## Intro")
         st.markdown("""
