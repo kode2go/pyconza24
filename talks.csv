@@ -1,0 +1,37 @@
+Title,Speakers,Category
+Applying AI with Python,Alex Conway,Talk
+Harnessing the Power of Community: Lessons from Speedrunning for the Python Ecosystem and Beyond,Nunudzai Mrewa,Talk
+It’s About Time: Time-Series Forecasting with Darts,Brenden Taylor,Talk
+Monitoring and Evaluating LLM Apps with Langfuse,Ruan Pretorius,Talk
+Leveraging the NLTK library for Translation: A Case Study of Dyula-French Translation,Alta Saunders,Talk
+Creating Personalised Images with Python's Stable Diffusion,Divyan Hirasen & Verosha,Talk
+Mental Illness and Vulnerability in Tech,Schalk Venter,Talk
+Bridging Language Barriers: Making Programming Education Accessible to All,Mthetho Sovara,Talk
+Level up your developer experience with Kubernetes,Roché Compaan,Talk
+A Novel Way of Creating Multi-Tenant Apps using Django... No Third Party Packages Apply!,Shaun De Ponte,Talk
+Building a Decisioning Engine for Data Scientists: A Practical Guide,Sholto Armstrong,Talk
+Implementing an HPy Backend for Cython,Du Toit Spies,Talk
+Streamlining HPC Operations: Integrating Django Helpdesk in Resource-Constrained Environments,Binjamin Barsch,Talk
+"You don't need a data service, you just need an object store and some JSON files",Gordon Inggs,Talk
+Great Expectations About Data Quality,Ariella Rink,Talk
+Made you look: Using Siamese Neural Networks for Building Change Detection at the City of Cape Town,Jolanda Becker,Talk
+Kafka in practice: Lessons learned at Takealot,Johan Beyers,Talk
+Power to the people who teach the people to code,Sheena O'Connell,Talk
+Adventures in Garbage Collection,Bruce Merry,Talk
+& robotics for all!,David Campey,Talk
+Maintaining a PLC communication library called python-snap7 without owning a PLC,Gijs Molenaar,Talk
+"Duck, Duck, Python: OLAP Data with DuckDB",Luis de Sousa,Remote Talk
+Differentiation Engines: The Elves behind the AI Christmas,Rajdeep Singh,Remote Talk
+Accelerate your pandas workload using FireDucks at zero manual effort,Sourav Saha,Remote Talk
+Sensor data processing on microcontrollers with MicroPython,Jon Nordby,Remote Talk
+Building a Thriving Tech Community,Adeline Makokha,Remote Talk
+Building a Code Search Engine: Using NLP to Find Similar Methods Across Libraries,Divya Rani,Remote Talk
+Beyond the Pause: Exploring the Inner Workings of Python’s `sleep()`,Rupali Kavale,Remote Talk
+Exploring the Adoption & Role of Open Source Software in Schools,Robson Kanhalelo,Keynote
+Using Coding Skills to Make Passive Income,Cory Zue,Keynote
+"Modern web frontend development with Python, HTMX and friends",Sheena O'Connell,Tutorial
+"Modern web frontend development with Python, HTMX and friends (part 2)",Sheena O'Connell,Tutorial
+PyCon Africa & PyConZA 2025 discussion,Neil Muller,Open Space
+Community & Contributions,Marco Slaviero,Sponsor Talk
+Professional Software Isn’t,Marco Slaviero,Sponsor Talk
+Software Development at the South African Radio Astronomy Observatory,SARAO,Sponsor Talk
