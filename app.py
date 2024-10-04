@@ -71,8 +71,8 @@ elif page == "Just Streamlit":
     with tabs[2]:
         st.write("## Deployment")
         st.markdown("""
-        - Deploy Direct from GitHub: Push your app to GitHub, and it automatically deploys on 
-        - Streamlit Cloud. Managed Scaling: No server configuration — Streamlit Cloud handles traffic and scaling. 
+        - Deploy Direct from GitHub: Push your app to GitHub, and it automatically deploys on Streamlit Cloud
+        - Managed Scaling: No server configuration — Streamlit Cloud handles traffic and scaling. 
         - Real-Time Collaboration: Share apps instantly with colleagues or the public via a shareable URL. 
         - Can install locally as well: “pip install streamlit” etc…
         """)
