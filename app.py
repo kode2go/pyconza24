@@ -38,6 +38,7 @@ if page == "Talks":
 elif page == "Just Streamlit":
     # Title for the Just Streamlit page
     st.title("Just Streamlit")
+    st.subheader("https://pyconza24.streamlit.app/")
 
     # Create tabs for different sections
     tab_names = ["Title","Intro", "Proof of Concept", "Deployment", "Limitations"]
