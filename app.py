@@ -43,8 +43,9 @@ elif page == "Just Streamlit":
     tab_names = ["Intro", "Proof of Concept", "Deployment", "Limitations"]
     tabs = st.tabs(tab_names)
 
-    # Intro Tab
     with tabs[0]:
+        st.write("# Just Streamlit")
+    with tabs[1]:
         st.write("## Intro")
         st.markdown("""
         - Streamlit is an open-source Python framework for building interactive web apps quickly. 
@@ -58,7 +59,7 @@ elif page == "Just Streamlit":
         st.image("st01.png", caption="Streamlit Workflow", use_column_width=True)
 
     # Proof of Concept Tab
-    with tabs[1]:
+    with tabs[2]:
         st.write("## Proof of Concept")
         st.markdown("""
         - Fast Development: Build a fully interactive app with only a few lines of code.
@@ -71,7 +72,7 @@ elif page == "Just Streamlit":
         st.image("st02.png", caption="Simple App", use_column_width=True)
 
     # Deployment Tab
-    with tabs[2]:
+    with tabs[3]:
         st.write("## Deployment")
         st.markdown("""
         - Deploy Direct from GitHub: Push your app to GitHub, and it automatically deploys on Streamlit Cloud
@@ -81,7 +82,7 @@ elif page == "Just Streamlit":
         """)
 
     # Limitations Tab
-    with tabs[3]:
+    with tabs[4]:
         st.write("## Limitations")
         st.markdown("""
         - Not designed for developing large scale, feature-rich web apps where user management, scalability, and backend logic are crucial. 
