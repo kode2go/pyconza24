@@ -54,29 +54,29 @@ elif page == "Just Streamlit":
     # Proof of Concept Tab
     with tabs[1]:
         st.write("## Proof of Concept")
-        st.write("""
-        Fast Development: Build a fully interactive app with only a few lines of code.
-        No Web Dev Required: No HTML, CSS, or JavaScript — focus on Python. 
-        Perfect for Data Science or Static Apps: Easily display plots, tables, models, and more. 
-        Deploy Easily: One-click deployment with Streamlit Cloud or Docker.
+        st.markdown("""
+        - Fast Development: Build a fully interactive app with only a few lines of code.
+        - No Web Dev Required: No HTML, CSS, or JavaScript — focus on Python. 
+        - Perfect for Data Science or Static Apps: Easily display plots, tables, models, and more. 
+        - Deploy Easily: One-click deployment with Streamlit Cloud or Docker.
         """)
 
     # Deployment Tab
     with tabs[2]:
         st.write("## Deployment")
-        st.write("""
-        Deploy Direct from GitHub: Push your app to GitHub, and it automatically deploys on 
-        Streamlit Cloud. Managed Scaling: No server configuration — Streamlit Cloud handles traffic and scaling. 
-        Real-Time Collaboration: Share apps instantly with colleagues or the public via a shareable URL. 
-        Can install locally as well: “pip install streamlit” etc…
+        st.markdown("""
+        - Deploy Direct from GitHub: Push your app to GitHub, and it automatically deploys on 
+        - Streamlit Cloud. Managed Scaling: No server configuration — Streamlit Cloud handles traffic and scaling. 
+        - Real-Time Collaboration: Share apps instantly with colleagues or the public via a shareable URL. 
+        - Can install locally as well: “pip install streamlit” etc…
         """)
 
     # Limitations Tab
     with tabs[3]:
         st.write("## Limitations")
-        st.write("""
-        Streamlit is great for creating data-driven dashboards and prototypes quickly without needing to handle backend or complex web architecture. 
-        It is not designed for developing large scale, feature-rich web applications where user management, scalability, and backend logic are crucial. 
-        It is also not designed for complex routing, user authentication, sessions, databases, and scalable deployment. 
-        There are experimental features to get some of these working.
+        st.markdown("""
+        - Streamlit is great for creating data-driven dashboards and prototypes quickly without needing to handle backend or complex web architecture. 
+        - It is not designed for developing large scale, feature-rich web applications where user management, scalability, and backend logic are crucial. 
+        - It is also not designed for complex routing, user authentication, sessions, databases, and scalable deployment. 
+        -- There are experimental features to get some of these working.
         """)
