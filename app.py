@@ -7,7 +7,7 @@ st.sidebar.title("PyConZA 2024")
 # Sidebar menu for navigation
 page = st.sidebar.selectbox(
     "Select a Page",
-    ("Talks", "Just Streamlit")
+    ("Just Streamlit","Talks" )
 )
 
 # Read the CSV
