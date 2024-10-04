@@ -1,14 +1,19 @@
 import streamlit as st
 import pandas as pd
 
-# Read the CSV
-df = pd.read_csv('talks.csv')
+
+
+# Add a title to the sidebar
+st.sidebar.title("My Sidebar Menu")
 
 # Sidebar menu for navigation
 page = st.sidebar.selectbox(
     "Select a Page",
     ("Talks", "Just Streamlit")
 )
+
+# Read the CSV
+df = pd.read_csv('talks.csv')
 
 # Page 1: Talks
 if page == "Talks":
