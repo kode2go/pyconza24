@@ -86,7 +86,7 @@ elif page == "Just Streamlit":
     with tabs[4]:
         st.write("## Limitations")
         st.markdown("""
-        - Not designed for developing large scale, feature-rich web apps where user management, scalability, and backend logic are crucial. 
-        - Not designed for complex routing, user authentication, sessions, databases, and scalable deployment. 
+        - Not for feature-rich web apps with user management and complex backend logic. 
+        - Not for complex routing, user auth, sessions, databases, etc... 
         - There are experimental features to get some of these working though.
         """)
