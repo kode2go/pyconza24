@@ -40,7 +40,7 @@ elif page == "Just Streamlit":
     st.title("Just Streamlit")
 
     # Create tabs for different sections
-    tab_names = ["Intro", "Proof of Concept", "Deployment", "Limitations"]
+    tab_names = ["Title","Intro", "Proof of Concept", "Deployment", "Limitations"]
     tabs = st.tabs(tab_names)
 
     with tabs[0]:
