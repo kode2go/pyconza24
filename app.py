@@ -55,9 +55,14 @@ elif page == "Just Streamlit":
         - Live app updating on save. 
         - Built-in widgets for inputs and visualization.
         """)
-    
+
+        st.divider()
          # Add the image
-        st.image("st01.png", caption="Streamlit Workflow", use_column_width=True)
+        st.image("st03.png", caption="Streamlit Workflow", use_column_width=True)
+        
+        st.divider()
+        
+        st.image("st04.png", caption="Streamlit Workflow", use_column_width=True)
 
     # Proof of Concept Tab
     with tabs[2]:
@@ -70,7 +75,7 @@ elif page == "Just Streamlit":
         """)
     
          # Add the image
-        st.image("st02.png", caption="Simple App", use_column_width=True)
+        # st.image("st02.png", caption="Simple App", use_column_width=True)
 
     # Deployment Tab
     with tabs[3]:
