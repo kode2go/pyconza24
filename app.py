@@ -78,5 +78,5 @@ elif page == "Just Streamlit":
         - Streamlit is great for creating data-driven dashboards and prototypes quickly without needing to handle backend or complex web architecture. 
         - It is not designed for developing large scale, feature-rich web applications where user management, scalability, and backend logic are crucial. 
         - It is also not designed for complex routing, user authentication, sessions, databases, and scalable deployment. 
-        -- There are experimental features to get some of these working.
+        - There are experimental features to get some of these working.
         """)
