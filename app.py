@@ -81,8 +81,7 @@ elif page == "Just Streamlit":
     with tabs[3]:
         st.write("## Limitations")
         st.markdown("""
-        - Streamlit is great for creating data-driven dashboards and prototypes quickly without needing to handle backend or complex web architecture. 
-        - It is not designed for developing large scale, feature-rich web applications where user management, scalability, and backend logic are crucial. 
-        - It is also not designed for complex routing, user authentication, sessions, databases, and scalable deployment. 
-        - There are experimental features to get some of these working.
+        - Not designed for developing large scale, feature-rich web apps where user management, scalability, and backend logic are crucial. 
+        - Not designed for complex routing, user authentication, sessions, databases, and scalable deployment. 
+        - There are experimental features to get some of these working though.
         """)
